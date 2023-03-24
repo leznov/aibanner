@@ -4,7 +4,7 @@
   }
 
   .banner__buttons {
-    width: 100%;
+
     margin-top: 24px;
     justify-content: space-between;
     padding: 0 20px;
@@ -52,6 +52,14 @@ body{
 
 .banner__ai span {
   color: #AAF908;
+  transition: color 0.3s ease-in-out;
+}
+
+.banner__text:hover .banner__ai span {
+  background: linear-gradient(to right, #AAF908, #FBC902);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -61,47 +69,44 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin-top:30px;
+  text-align: center; 
+  display: inline-block;
 }
 
 .button {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  
   font-weight: 500;
   font-size: 18px;
-  line-height: 22px;
+  
   letter-spacing:0.01em;
 }
 
 .button:hover{
  cursor: pointer; 
+ transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  
 }
 
 .button_create {
-  background-color: #FFFFFF;
-  border-radius: 6.64615px;
+  margin-left:20px;
   padding: 13.2923px 22.1538px;
   gap: 11.08px;
-  color: #222222;
+
+  background-color: #FFFFFF;
   border: none;
-  margin-left:20px;
-  
-  /* добавлено */
-  position: relative;
-  overflow: hidden;
+  border-radius: 6.64615px;
+
+  color: #222222;
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 27px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.button_create:hover:before {
-  content: '';
-  position: absolute;
-  top: -100%;
-  left: -100%;
-  width: 200%;
-  height: 200%;
-  background-color: rgba(255,255,255,0.3);
-  transform-origin: bottom right;
-  transform: rotate(45deg);
-}
 
 .button_demo {
+  box-sizing: border-box;
+  
   margin-left:20px;
   padding:13.2923px 22.1538px; 
   gap:11.08px;
@@ -110,6 +115,9 @@ body{
    border:solid 1px #FFFFFF;
    border-radius:6.64615px; 
 
-   color:#FFFFFF; 
+   color:#FFFFFF;
+   font-family: 'Helvetica Neue', Arial, sans-serif;
+   line-height: 22px;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
