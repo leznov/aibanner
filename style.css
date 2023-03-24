@@ -7,7 +7,7 @@
     width: 100%;
     margin-top: 24px;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
 
@@ -70,6 +70,7 @@ body{
   line-height: 22px;
   letter-spacing:0.01em;
 }
+
 .button:hover{
  cursor: pointer; 
 }
@@ -81,6 +82,7 @@ body{
   gap: 11.08px;
   color: #222222;
   border: none;
+  margin-left:20px;
   
   /* добавлено */
   position: relative;
@@ -100,12 +102,14 @@ body{
 }
 
 .button_demo {
+  margin-left:20px;
+  padding:13.2923px 22.1538px; 
+  gap:11.08px;
+
    background-color:#0D1728; 
-   border-radius:6.64615px; 
-   padding:13.2923px 22.1538px; 
-   gap:11.08px; 
-   color:#FFFFFF; 
    border:solid 1px #FFFFFF;
-   margin-left:20px;
+   border-radius:6.64615px; 
+
+   color:#FFFFFF; 
 }
 
