@@ -25,6 +25,8 @@
   justify-content: center;
   background-color: #0D1728;
   margin: 0;
+  width: 100vw; /* set width to viewport width */
+  height: 100vh; /* set height to viewport height */
 }
 
 .banner__text {
@@ -46,6 +48,7 @@
 
 .banner__ai {
   color: #AAF908;
+  display: block;
 }
 
 .button {
