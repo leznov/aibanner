@@ -48,7 +48,10 @@
 
 .banner__ai {
   color: #AAF908;
-  display: block;
+}
+
+.banner__ai span {
+  color: inherit;
 }
 
 .button {
