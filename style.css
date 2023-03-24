@@ -3,6 +3,20 @@
     font-size: 32px;
   }
 }
+@media (max-width: 768px) {
+  .banner__buttons {
+    width: 100%;
+    margin-top: 24px;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    flex-basis: 48%;
+    margin-bottom: 16px;
+  }
+}
 
 .banner {
   display: flex;
@@ -22,6 +36,13 @@
   line-height: 130%;
   text-align: center;
 }
+
+.banner__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 .banner__ai {
   color: #AAF908;
