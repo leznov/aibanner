@@ -70,7 +70,8 @@
    padding:13.2923px 22.1538px; 
    gap:11.08px; 
    color:#222222; 
-   border:none; 
+   border:none;
+   margin-right:20px;
 }
 
 .button_demo {
