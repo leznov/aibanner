@@ -70,18 +70,33 @@ body{
   line-height: 22px;
   letter-spacing:0.01em;
 }
-.banner:hover{
+.button:hover{
  cursor: pointer; 
 }
 
 .button_create {
-   background-color:#FFFFFF; 
-   border-radius:6.64615px; 
-   padding:13.2923px 22.1538px; 
-   gap:11.08px; 
-   color:#222222; 
-   border:none;
-   margin-right:20px;
+  background-color: #FFFFFF;
+  border-radius: 6.64615px;
+  padding: 13.2923px 22.1538px;
+  gap: 11.08px;
+  color: #222222;
+  border: none;
+  
+  /* добавлено */
+  position: relative;
+  overflow: hidden;
+}
+
+.button_create:hover:before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(255,255,255,0.3);
+  transform-origin: bottom right;
+  transform: rotate(45deg);
 }
 
 .button_demo {
