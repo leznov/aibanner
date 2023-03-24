@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   background-color: #0D1728;
+  color:#FFFFFF; 
   margin: 0;
 }
 
@@ -47,8 +48,9 @@
 .button_demo {
    background-color:#0D1728; 
    border-radius:6.64615px; 
-   padding:13.2923px22.1538px; 
+   padding:13.2923px 22.1538px; 
    gap:11.08px; 
    color:#FFFFFF; 
-   border:solid1px#FFFFFF;  
+   border:solid 1px #FFFFFF;  
 }
+
