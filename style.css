@@ -24,7 +24,6 @@
   align-items: center;
   justify-content: center;
   background-color: #0D1728;
-  color:#FFFFFF; 
   margin: 0;
 }
 
@@ -35,6 +34,7 @@
   font-size: 48px;
   line-height: 130%;
   text-align: center;
+  color:#FFFFFF; 
 }
 
 .banner__buttons {
